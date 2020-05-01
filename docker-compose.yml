@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  tftp:
+    network_mode: host
+    build: .
+    volumes:
+    - .:/var/tftpboot
